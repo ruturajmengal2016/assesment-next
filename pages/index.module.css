@@ -1,0 +1,95 @@
+.frameChild {
+  position: relative;
+  width: 10rem;
+  height: 4.5rem;
+  object-fit: contain;
+}
+.ipsum {
+  position: relative;
+  line-height: 150%;
+  cursor: pointer;
+}
+.ipsumWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  background-color: var(--light-theme-bg-color-surface);
+  box-shadow: 0-4px 0#003057 inset;
+  color: var(--brand-colors-bg-color-primary);
+}
+.frameContainer,
+.frameWrapper {
+  height: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frameParent {
+  gap: var(--gap-5xl);
+}
+
+.navi {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background-color: #003057;
+  justify-content: space-between;
+  background-color: var(--text-colors-brand-colors-safe-on-primary);
+}
+
+.naviParent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  font-size: var(--font-size-lg);
+  color: var(--text-colors-light-theme-muted-on-light);
+}
+
+.rectangleParent {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.frameGroup {
+  font-size: var(--font-size-lg);
+  color: var(--brand-colors-bg-color-primary);
+}
+
+.frameItem {
+  background-color: #c4c4c4;
+}
+
+.frameInner {
+  background-color: var(--text-colors-brand-colors-safe-on-primary);
+}
+
+.groupParent {
+  display: flex;
+  width: 100%;
+}
+
+.groupParent {
+  gap: var(--gap-29xl);
+}
+
+.groupParent {
+  font-family: var(--font-montserrat);
+}
+
+.desktop {
+  width: 100%;
+  height: 164.06rem;
+  text-align: left;
+  font-size: var(--paragraph-regular-bold-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-regular-bold);
+}
